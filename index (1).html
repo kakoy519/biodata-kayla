@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage Biodata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            opacity: 1;
+            transition: opacity 0.5s ease;
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f5672;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Full viewport height */
+            text-align: center;
+        }
+
+        header {
+            position: relative; /* Position relative for internal absolute positioning */
+            width: 100%;
+            color: #d3e6f8;
+            text-align: center;
+            padding: 200px 0;
+            transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
+            opacity: 0; /* Initially hidden */
+            transform: translateY(50px); /* Initially positioned above the viewport */
+        }
+
+        body:hover header {
+            opacity: 1; /* Fully visible */
+            transform: translateY(0); /* Move to its normal position */
+        }
+
+        .btn-custom {
+            background-color: #07243f; /* Custom button color */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: inline-block; /* Ensure the button is treated as an inline element */
+            margin-top: 10px; /* Space above the button */
+            text-decoration: none;
+        }
+
+        .btn-custom:hover {
+            background-color: #4997e1; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Biodata kayla</h2>
+        <h1>Selamat Datang Di Website Biodata</h1>
+        <a href="portfolio.html" class="btn btn-custom">Lihat Biodata</a>
+    </header>
+</body>
+</html>

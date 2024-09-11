@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+
+html ::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f5672;
+    color: #333;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #07293f;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+nav ul a {
+    color: #d3e6f8;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul a:hover {
+    color: #0f5672;
+;
+}
+
+nav .home {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 25px 25px;
+    color: #d3e6f8;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 20px;
+}
+
+section div {
+    background-color: #072a3f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+section div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #d3e6f8; /* Tambahkan border putih di sekitar gambar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek 3D */
+    margin-bottom: 20px;
+}
+
+section div h3 {
+    margin: 10px 0;
+    font-size: 1.8em;
+    color: #0f5672;
+}
+
+section div p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #d3e6f8;
+}
+
+
+section div h4 {
+    margin-top: 20px;
+    font-size: 1.4em;
+    color: #0f5672;
+}
+
+section div p:last-of-type {
+    font-size: 0.95em;
+    color: #d3e6f8;
+    line-height: 1.6;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    section div {
+        padding: 20px 15px;
+    }
+
+    section div h3 {
+        font-size: 1.5em;
+    }
+}
+
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="home"></li>
+            <a href="index.html">Home</a>
+            <li></li>
+            <a href="#aboutme">Me</a>
+            <li></li>
+            <a href="#abouthobbydancita-cita">Hobby dan Cita-cita</a>
+            <li></li>
+            <a href="#aboutcontact">Contact</a>
+        </ul>
+    </nav>
+        
+        <header>
+            <h1>Website Biodata Kayla</h1>
+        </header>
+        
+        <div class="Biodata">
+            <section class="aboutme" id="aboutme">
+                <div class="indra">
+                    <img src="foto/koy6.jpg" alt="PP">
+                    <h3>Kayla Azahra</h3>
+                    <p>Pelajar | Designer</p>
+                    <h4>About Me</h4>
+                    <p class="isi">Nama:Kayla Azahra</p>
+                    <p class="isi">Tempat Tanggal Lahir:Garut, 07 april, 2009</p>
+                    <p class="isi">saya memiliki ketertarikan pada olahraga dan seni bela diri, terkadang saya lebih suka menghabiskan waktu sendirian dariada bersosialisasi diluar, saya juga orangnya memiliki karakteristik yang tidak pernah menyerah dalam hal apapun.</p>
+                </div>
+            </section>
+        
+            <section class="abouthobbydancita-cita" id="abouthobbydancita-cita">
+                <div class="hobbydancita-cita">
+                    <h3>Hobby dan Cita-cita</h3>
+                    <h4>About My Hobby and Cita-cita</h4>
+                    <p class="isi">Hobby:menggambar dan mendengarkan musik</p>
+                    <p class="isi">Cita-cita:menjadi ARSITEKTUR ataupun TNI AL</p>
+                </div>
+            </section>
+
+            <section class="aboutcontact" id="aboutcontact">
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <h4>About My Contact</h4>
+                    <p class="isi">Nomor Telepon:+62 857-9814-3938</p>
+                    <p class="isi">Email:Kyla87406@gmail.com</p>
+                    <p class="isi">Instagram:Keyzzoo_09</p>
+                </div>
+            </section>
+        </div>
+    </body>
+    </html>
